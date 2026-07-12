@@ -15,6 +15,8 @@ Date:   Sun Jul 12 18:22:51 2026 +0300
 
     Day 2: first commit
 
+##DAY 3 Building the commit habbit
 
+Making three seperate commits today.
 
 

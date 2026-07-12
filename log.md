@@ -36,6 +36,7 @@ node_modules/
 
 ```
 
+![git ignore](C:\Users\Phillip\Pictures\git\day 4 - .gitignore)
 
 
 

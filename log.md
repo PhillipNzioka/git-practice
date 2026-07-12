@@ -1,5 +1,11 @@
 my first commit
 
+##DAY 1 
+
+git config --list
+
+![git config](D:\luxdev\git-practice)
+
 ##DAY 2 First Commit
 
 $ git log

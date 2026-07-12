@@ -39,4 +39,12 @@ node_modules/
 ![git ignore](C:\Users\Phillip\Pictures\git\day 4 - .gitignore)
 
 
+##DAY 5 Branching
+
+Create new branch "feature-1"
+`git branch feature-1`
+
+Switch to the new branch
+`git checkout feature-1`
+
 

@@ -4,7 +4,7 @@ my first commit
 
 git config --list
 
-![git config](D:\luxdev\git-practice\day 1 - git config --list)
+![git config](C:\Users\Phillip\Pictures\git\day 1 - git config --list)
 
 ##DAY 2 First Commit
 
@@ -19,7 +19,22 @@ Date:   Sun Jul 12 18:22:51 2026 +0300
 
 Making three seperate commits today.
 
-![git log --oneline](D:\luxdev\git-practice\day 3 - git log --oneline)
+![git log --oneline](C:\Users\Phillip\Pictures\git\day 3 - git log --oneline)
+
+##DAY 4 .gitignore
+
+Contents of my .gitignore file
+```
+# Ignore specific file
+secrets.txt
+
+# Ignore all log files
+*.log
+
+# Ignore folder and contents
+node_modules/  
+
+```
 
 
 

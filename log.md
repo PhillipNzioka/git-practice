@@ -59,4 +59,6 @@ Create new branch "feature-1"
 Switch to the new branch
 `git checkout feature-1`
 
+
 ##DAY 6: Merge & Conflict
+

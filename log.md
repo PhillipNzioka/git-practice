@@ -1,12 +1,10 @@
-my first commit
-
-##DAY 1 
+### DAY 1 
 
 git config --list
 
 ![git config](C:\Users\Phillip\Pictures\git\day 1 - git config --list)
 
-##DAY 2 First Commit
+### DAY 2 First Commit
 
 $ git log
 commit 3dfa5a783b14593e1719f58c6aafdac18d143088 (HEAD -> main)
@@ -15,13 +13,13 @@ Date:   Sun Jul 12 18:22:51 2026 +0300
 
     Day 2: first commit
 
-##DAY 3 Building the commit habbit
+### DAY 3 Building the commit habbit
 
 Making three seperate commits today.
 
 ![git log --oneline](C:\Users\Phillip\Pictures\git\day 3 - git log --oneline)
 
-##DAY 4 .gitignore
+### DAY 4 .gitignore
 
 Contents of my .gitignore file
 ```
@@ -38,7 +36,7 @@ node_modules/
 
 ![git ignore](C:\Users\Phillip\Pictures\git\day 4 - .gitignore)
 
-##DAY 5 Branching
+### DAY 5 Branching
 
 Create new branch "feature-1"
 
@@ -48,19 +46,7 @@ Switch to the new branch
 
 `git checkout feature-1`
 
-
-
-
-##DAY 5 Branching
-
-Create new branch "feature-1"
-`git branch feature-1`
-
-Switch to the new branch
-`git checkout feature-1`
-
-
-##DAY 6 Merge & Conflict
+### DAY 6 Merge & Conflict
 
 Merging the new branch `feature-1` to main
 
@@ -71,14 +57,14 @@ This results in a conflict that I manually resolve to keep the right one by remo
 
 ![solving merge conflict](C:\Users\Phillip\Pictures\git\Day 6 - conflict)
 
-##DAY 7  Checkpoint - Self Test
+### DAY 7  Checkpoint - Self Test
 1. Without looking anything up, write 2–3 sentences answering each question in your log:
 2.  What's the difference between git add and git commit?
 3. What does a branch actually point to?
 4.  What causes a merge conflict?
 5. Then look up the real answers and correct yourself where needed.
 
-###My Answers 
+#### My Answers 
 `git add' is git bash command that looks for untracked files or folders in your repository and
 stages them (tracks them) ready to be committed.
 
@@ -90,7 +76,7 @@ A `git branch` points to a copy of my project.
 
 A merge conflict is caused by difference in changes betweern your main and branches that you are merging.
 
-### Real Answers
+#### Real Answers
 The `git add` command moves changes from your working directory to the staging area (index), preparing them for the next commit.  By default, Git does not automatically track changes; you must explicitly use `git add` to specify which files or modifications should be included in your next snapshot.
 
 `git commit` creates a snapshot of your repository’s staged changes, recording the state of the project at a specific point in time along with metadata such as the author, timestamp, and a descriptive message. 

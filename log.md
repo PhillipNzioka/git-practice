@@ -1,25 +1,38 @@
+## Git Practice
+
 ### DAY 1 
+
+Setting up my git, my username and email.
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
 
 git config --list
 
-![git config](C:\Users\Phillip\Pictures\git\day 1 - git config --list)
+![git config list](<screenshots/day 1 - git config --list.png>)
 
 ### DAY 2 First Commit
 
+```
 $ git log
 commit 3dfa5a783b14593e1719f58c6aafdac18d143088 (HEAD -> main)
 Author: PhillipNzioka <nziopindei@gmail.com>
 Date:   Sun Jul 12 18:22:51 2026 +0300
+```
 
-    Day 2: first commit
+![git log](<screenshots/day 2 - git log.png>)
 
 ### DAY 3 Building the commit habbit
 
 Making three seperate commits today.
 
-![git log --oneline](C:\Users\Phillip\Pictures\git\day 3 - git log --oneline)
+![git log oneline](<screenshots/day 3 - git log --oneline.png>)
 
 ### DAY 4 .gitignore
+
+Creating a `.gitignore` file in my repsitory and listing files and folders that git won't track into it.
 
 Contents of my .gitignore file
 ```
@@ -30,11 +43,12 @@ secrets.txt
 *.log
 
 # Ignore folder and contents
-node_modules/  
+node_modules/ 
+screenshots/ 
 
 ```
 
-![git ignore](C:\Users\Phillip\Pictures\git\day 4 - .gitignore)
+![gitignore](<screenshots/day 4 - .gitignore.png>)
 
 ### DAY 5 Branching
 
@@ -50,12 +64,12 @@ Switch to the new branch
 
 Merging the new branch `feature-1` to main
 
-![git merge](C:\Users\Phillip\Pictures\git\Day 6 - merge)
+![merge branches](<screenshots/Day 6 - merge.png>)
 
 This results in a conflict that I manually resolve to keep the right one by removing the markers
 , then I `git add`, followed by `git commit`
 
-![solving merge conflict](C:\Users\Phillip\Pictures\git\Day 6 - conflict)
+![conflict](<screenshots/Day 6 - conflict.png>)
 
 ### DAY 7  Checkpoint - Self Test
 1. Without looking anything up, write 2–3 sentences answering each question in your log:
@@ -65,7 +79,7 @@ This results in a conflict that I manually resolve to keep the right one by remo
 5. Then look up the real answers and correct yourself where needed.
 
 #### My Answers 
-`git add' is git bash command that looks for untracked files or folders in your repository and
+`git add` is git bash command that looks for untracked files or folders in your repository and
 stages them (tracks them) ready to be committed.
 
 `git commit` is a git bash command that saves your changes at any given point and allows you to keep record 

@@ -48,4 +48,4 @@ Switch to the new branch
 `git checkout feature-1`
 
 
-##DAY 5 Merge & Conflict
+##DAY 6 Merge & Conflict

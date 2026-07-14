@@ -61,3 +61,12 @@ Switch to the new branch
 
 
 ##DAY 6 Merge & Conflict
+
+Merging the new branch `feature-1` to main
+
+![git merge](C:\Users\Phillip\Pictures\git\Day 6 - merge)
+
+This results in a conflict that I manually resolve to keep the right one by removing the markers
+, then I `git add`, followed by `git commit`
+
+![solving merge conflict](C:\Users\Phillip\Pictures\git\Day 6 - conflict)

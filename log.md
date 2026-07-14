@@ -70,3 +70,34 @@ This results in a conflict that I manually resolve to keep the right one by remo
 , then I `git add`, followed by `git commit`
 
 ![solving merge conflict](C:\Users\Phillip\Pictures\git\Day 6 - conflict)
+
+##DAY 7  Checkpoint - Self Test
+1. Without looking anything up, write 2–3 sentences answering each question in your log:
+2.  What's the difference between git add and git commit?
+3. What does a branch actually point to?
+4.  What causes a merge conflict?
+5. Then look up the real answers and correct yourself where needed.
+
+###My Answers 
+`git add' is git bash command that looks for untracked files or folders in your repository and
+stages them (tracks them) ready to be committed.
+
+`git commit` is a git bash command that saves your changes at any given point and allows you to keep record 
+of your changes, allowing you to rollback to the correct snapshot of your work. 
+It is a snapshot of your file/folder/project at a given time.
+
+A `git branch` points to a copy of my project.
+
+A merge conflict is caused by difference in changes betweern your main and branches that you are merging.
+
+### Real Answers
+The `git add` command moves changes from your working directory to the staging area (index), preparing them for the next commit.  By default, Git does not automatically track changes; you must explicitly use `git add` to specify which files or modifications should be included in your next snapshot.
+
+`git commit` creates a snapshot of your repository’s staged changes, recording the state of the project at a specific point in time along with metadata such as the author, timestamp, and a descriptive message. 
+
+A `git branch` is a lightweight, movable pointer to a specific commit in a repository’s history.  It does not contain or copy the codebase; instead, it simply references the "tip" of a line of development, allowing Git to track the latest state of changes on that branch. As new commits are made, the branch pointer automatically advances to the newest commit, maintaining a continuous chain of project history.
+
+Merge conflicts occur when Git cannot automatically combine changes from different branches because the modifications overlap in ways the system cannot resolve.  This typically happens when two or more developers (or the same developer on different branches) make competing changes to the same lines or regions within the same file. 
+
+
+

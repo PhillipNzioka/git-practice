@@ -99,5 +99,14 @@ A `git branch` is a lightweight, movable pointer to a specific commit in a repos
 
 Merge conflicts occur when Git cannot automatically combine changes from different branches because the modifications overlap in ways the system cannot resolve.  This typically happens when two or more developers (or the same developer on different branches) make competing changes to the same lines or regions within the same file. 
 
+### DAY 8 GitHub Setup
+Create a GitHub account if you don't have one.
+Create a new public repository named git-practice (do not initialize it with a README).
+Connect your local repository to the remote one you created on GitHub using the command below.
 
+'git remote add origin <your-repo-url>'
+
+Type the command `git remote -v` in your git terminal and if you get results similar to the one below, then you're successful.
+
+![GitHub Setup](<screenshots/day 8 - github setup.png>)
 

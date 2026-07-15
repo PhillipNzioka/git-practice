@@ -104,7 +104,7 @@ Create a GitHub account if you don't have one.
 Create a new public repository named git-practice (do not initialize it with a README).
 Connect your local repository to the remote one you created on GitHub using the command below.
 
-'git remote add origin <your-repo-url>'
+`git remote add origin <your-repo-url>`
 
 Type the command `git remote -v` in your git terminal and if you get results similar to the one below, then you're successful.
 

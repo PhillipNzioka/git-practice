@@ -116,3 +116,9 @@ Type the command `git remote -v` in your git terminal and if you get results sim
 
 ![GitHub Setup](<screenshots/day 8 - github setup.png>)
 
+### Day 10  Edit on GitHub, Pull Locally
+1. On GitHub.com, open a file, click the pencil (edit) icon, make a small change, and commit it directly through the browser.
+2. Back on your machine, run: CODE:git pull
+3. Confirm the change now appears in your local files.
+
+![git pull](<screenshots/Day 10 - git pull.png>)

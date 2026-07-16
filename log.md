@@ -1,5 +1,11 @@
 ## Git Practice
 
+This is a self-paced, 30-day, learn-by-doing challenge, you complete one day at a time, on your own schedule, in order.
+- Each day takes roughly 15–30 minutes.
+-	Each day builds on the day before it 
+- Each day ends with a 📸 Proof of Work box - a specific screenshot or link that proves you completed it.
+- Keep a personal log.md file in your practice repo, and paste your Proof of Work into it every day. By Day 30, that log is your own record of everything you learned.
+
 ### DAY 1 
 
 Setting up my git, my username and email.
